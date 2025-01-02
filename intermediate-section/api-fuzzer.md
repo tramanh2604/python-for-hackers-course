@@ -1,6 +1,6 @@
 # API là gì?
-- API (application programming interface) - giao diện giúp các ứng dụng giao tiếp được với nhau.
-- Lý do sử dụng API:
+API (application programming interface) - giao diện giúp các ứng dụng giao tiếp được với nhau.
+Lý do sử dụng API:
 + Gửi và nhận data 
 + Tự động hóa quy trình
 + Kết nối giữa các dịch vụ và ứng dụng
