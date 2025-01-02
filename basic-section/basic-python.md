@@ -1,3 +1,56 @@
+# So sánh Python và C/C++
+|              |     Python    |        C/C++        |
+|--------------|---------------|---------------------|
+| Kiểu dữ liệu | K cần khai báo|Cần khai báo rõ ràng |
+|              | Thông dịch    |Biên dịch            |
+|Quản lý bộ nhớ|Tự động        |new/ delete          |
+
+
+# Cấu trúc của 1 project
+- Với các project nhỏ, viết trực tiếp.
+
+- Với các project lớn và cần mở rộng:
+```
+import
+
+def main():
+
+if __name__ == "__main__"
+```
+
+`if __name__ == "__main__` sẽ kiểm tra file hiện tại có được chạy trực tiếp không. Khi file import vào 1 module khác, đoạn mã trong `if __name__ == "__main__` sẽ không được thực thi.
+
+- Hướng dẫn chia module
+**module1.py**
+```
+def greet():
+    #code
+
+if __name__ == "__main__":
+    print("Module 1 is running")
+```
+
+**module2.py**
+```
+def cal():
+    #code
+
+if __name__ == "__main__":
+    print("Module 2 is running")
+```
+
+**main.py**
+```
+import module1
+import module2
+
+def main():
+    #code
+
+if __name__ == "__main__":
+    main()
+```
+
 # 1. Print & Variables
 - Hàm Print: in ra màn hình console
 print("*string*"): in chuỗi
@@ -86,3 +139,6 @@ def function_name():
 
 # 7. python for Linux
 pycharm
+
+# 8. pass through data
+Chuyển tiếp dữ liệu mà không biến đổi
