@@ -43,7 +43,8 @@ FUFF là 1 API fuzzers, là công cụ dùng để kiểm tra bảo mật API b�
 # Project
 Tuy nhiên FUFF chỉ thực hiện việc gửi, mà không trả các kết quả của request.
 
-Project là đoạn source code đơn giản bằng Python để xem kết quả trả về của request.
+Project là đoạn source code đơn giản bằng Python để xem kết quả trả về của request và các endpoint.
 
-Trong video clip, dùng api từ box backend của Hackthebox, nhưng mình sẽ dùng API từ JSONPlaceholder.
+Trong video clip, dùng api từ box backend của Hackthebox, nhưng mình sẽ dùng API từ JSONPlaceholder (bạn có thể dùng bất kì API nào bạn muốn)
 
+**Mình sẽ tìm hiểu phần này sau, vì clip nói khá nhanh**
